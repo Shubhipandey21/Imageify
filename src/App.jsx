@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Result from './pages/Result'
 import BuyCredit from './pages/BuyCredit'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
      
       
     </Routes>
-    
+    <Footer />
       {/* Add other components or routes as needed */}
     </div>
   )
